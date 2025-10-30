@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -7,7 +7,6 @@ body {
   color: #333;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,7 +41,7 @@ body {
   color: #4a2c2a;
 }
 
-/* Hero Section */
+
 .hero {
   background: url("images/motseng.jpg") no-repeat center center/cover;
   height: 80vh;
@@ -67,7 +66,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   background: #6b3e2a;
@@ -80,9 +79,6 @@ border-top: 4px solid #f9b233;
 }
 
 
-
-
-/* CLOTHING STYLE */
 .page-title {
   text-align: center;
   font-size: 2.5rem;
@@ -100,7 +96,7 @@ border-top: 4px solid #f9b233;
   line-height: 1.8;
 }
 
-/* Clothing Grid */
+
 .clothing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -108,9 +104,9 @@ border-top: 4px solid #f9b233;
   padding: 0 30px 50px 30px;
 }
 
-/* Clothing Item Cards */
+
 .clothing-item {
-  background: #fffaf0; /* soft cream */
+  background: #fffaf0; 
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -139,7 +135,7 @@ border-top: 4px solid #f9b233;
   font-size: 1rem;
 }
 
-/* Links */
+
 .clothing-item a {
   display: inline-block;
   margin-bottom: 15px;
@@ -154,7 +150,7 @@ border-top: 4px solid #f9b233;
   text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
-/* Hover effects for card */
+
 .clothing-item:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 20px rgba(0,0,0,0.15);
@@ -166,7 +162,7 @@ border-top: 4px solid #f9b233;
 }
 
 
-/* Footer */
+
 .footer {
   background-color: #6b3e2a; /* warm earthy brown */
   color: #fffaf0; /* soft cream text */
@@ -189,25 +185,6 @@ border-top: 4px solid #f9b233;
   text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Intro text */
 .music-page .intro {
   text-align: center;
   padding: 40px 20px;
@@ -218,7 +195,7 @@ border-top: 4px solid #f9b233;
   max-width: 900px;
 }
 
-/* Media section (video + audio) */
+
 .media{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -241,7 +218,6 @@ border-top: 4px solid #f9b233;
   box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
 
-/* Grid for instruments */
 .dance-instruments {
   padding: 40px 20px;
 }
@@ -253,7 +229,6 @@ border-top: 4px solid #f9b233;
   color: #4a2c2a;
 }
 
-/* Each instrument card */
 .dance-instruments .grid-list article{
 border-radius: 15px;
 background: #fff;
@@ -334,57 +309,6 @@ padding: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
 .footer {
   background-color: #6b3e2a; /* warm earthy brown */
   color: #fffaf0; /* soft cream text */
@@ -414,7 +338,7 @@ padding: 15px;
 
 
 
-/* General Page Styling */
+
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -423,7 +347,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -457,7 +380,7 @@ body {
   color: #4a2c2a;
 }
 
-/* Section Title */
+
 .crafts-gallery {
   padding: 40px 20px;
   text-align: center;
@@ -469,7 +392,7 @@ body {
   font-size: 2rem;
 }
 
-/* Grid Layout */
+
 .grid-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -546,10 +469,6 @@ body {
   }
 
 
-
-
-
-/* Contact Form */
 .contact-form {
   background: #fff;
   max-width: 600px;
@@ -639,7 +558,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* Footer */
+
 .footer {
   background-color: #4a2c2a;
   color: #f9e9d8;
@@ -664,7 +583,7 @@ body {
 
 
 }
-/* Responsive */
+
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -675,3 +594,4 @@ body {
     margin: 20px;
     padding: 20px;
   }
+

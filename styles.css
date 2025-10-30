@@ -1,26 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
 .footer {
   background-color: #6b3e2a; /* warm earthy brown */
   color: #fffaf0; /* soft cream text */
@@ -59,7 +37,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -105,7 +82,7 @@ body {
   font-size: 2rem;
 }
 
-/* Grid Layout */
+
 .grid-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -150,7 +127,7 @@ body {
   color: #444;
 }
 
-/* Buttons (Links) */
+
 .grid-list a {
   display: inline-block;
   padding: 10px 15px;
@@ -170,7 +147,7 @@ body {
 
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -185,7 +162,6 @@ body {
 
 
 
-/* Contact Form */
 .contact-form {
   background: #fff;
   max-width: 600px;
@@ -239,7 +215,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Social Links */
 .social-links {
   text-align: center;
   margin: 40px 0;
@@ -275,7 +250,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* Footer */
+
 .footer {
   background-color: #4a2c2a;
   color: #f9e9d8;
@@ -300,7 +275,7 @@ body {
 
 
 }
-/* Responsive */
+
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
@@ -311,3 +286,4 @@ body {
     margin: 20px;
     padding: 20px;
   }
+

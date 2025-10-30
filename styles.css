@@ -1,11 +1,11 @@
 
 .footer {
-  background-color: #6b3e2a; /* warm earthy brown */
-  color: #fffaf0; /* soft cream text */
+  background-color: #6b3e2a; 
+  color: #fffaf0; 
   padding: 25px 30px;
   text-align: center;
   font-size: 0.95rem;
-  border-top: 4px solid #f9b233; /* subtle accent line */
+  border-top: 4px solid #f9b233; 
   margin-top: 50px;}
 
 
@@ -28,7 +28,7 @@
 
 
 
-/* General Page Styling */
+
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -286,4 +286,5 @@ body {
     margin: 20px;
     padding: 20px;
   }
+
 
